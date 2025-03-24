@@ -22,7 +22,6 @@ class ReadGroceries {
 
 class WriteAFile {
     public static void main(String[] args) {
-        // Updated output file path
         String writtenFile = "C:\\Users\\20872\\Downloads\\WriteAFileExample.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(writtenFile))) {
             writer.write("Hello, World!");
@@ -36,7 +35,6 @@ class WriteAFile {
 
 class WriteDiary {
     public static void main(String[] args) {
-        // Updated output file path
         String diaryFile = "C:\\Users\\20872\\Downloads\\Diary.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(diaryFile));
              Scanner scanner = new Scanner(System.in)) {
@@ -82,4 +80,5 @@ class FormatGroceries {
         }
     }
 }
+    
     
